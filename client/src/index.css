@@ -1,0 +1,60 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: darkgreen;
+}
+
+#fullUrl {
+  padding: 14px;
+  text-align: left;
+  width: 50%;
+  font-size: large;
+  border-radius: 5px;
+  border: 1px solid darkgreen;
+}
+
+#submitUrl {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+table {
+  width: 70%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 1px solid darkgreen;
+}
+
+table th,
+table td {
+  border: 1px solid darkgreen;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  border: 1px solid white;
+}
+
+table th {
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #d4edda;
+}
