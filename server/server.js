@@ -7,7 +7,9 @@ require("dotenv").config();
 const app = express();
 app.use(cors());
 
-mongoose.connect(process.env.MONGODB_URI);
+mongoose
+  .connect(process.env.MONGODB_URI)
+  .then(() => console.log("Connected to MongoDB"));
 
 app.use(express.urlencoded({ extended: false }));
 

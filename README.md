@@ -2,6 +2,8 @@
 
 A simple URL shortener application built with a React frontend, Node.js/Express backend, and MongoDB for data storage. This application allows users to shorten URLs, track the number of clicks, and redirect to the original URL.
 
+![Image Demo](image.png)
+
 ## Features
 
 - Shorten long URLs into concise, shareable links.
