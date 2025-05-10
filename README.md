@@ -17,4 +17,3 @@ A simple URL shortener application built with a React frontend, Node.js/Express 
 - **Frontend**: React, TypeScript, CSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Environment Variables**: Managed with `dotenv`
